@@ -1,0 +1,144 @@
+.child1{
+color: aliceblue;
+border-radius: 10px;
+border-style: solid;
+border-color: hsl(263, 55%, 52%);
+text-align:left;
+width: 60%;
+padding: 2px;
+margin-right: 10px;
+background-color: hsl(263, 55%, 52%);
+background-image: url('./images/bg-pattern-quotation.svg');
+background-repeat: no-repeat;
+background-position: 80% 0;
+}
+.child1 img{
+ border-radius: 500px;
+ margin-left: 20px;
+}
+.child2{
+    background-color: #7f8c8d;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 26%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+.child2 img{
+    border-radius: 500px;
+   }
+.child3{
+    background-color: white;
+    color:#2c3e50;
+    border-radius: 10px;
+    width:24%;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    
+}
+.child3 img{
+    border-radius: 500px;
+   }
+.child4{
+    background-color:#130f40;
+    color:white;
+    border-radius: 10px;
+    width: 60%;
+    padding: 15px;
+     margin: 10px;
+     
+}
+.child4 img{
+    border-radius: 500px;
+   }
+.child5{
+    background-color: white;
+    color: #2c3e50;
+    border-radius: 10px;
+    width: 20%;
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 20px;
+}
+.child5 img{
+    border-radius: 500px;
+   }
+ 
+#container{
+    display: flex;
+    flex-direction: row; 
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.top2{
+    display:flex;
+    flex-direction: row;
+    margin-left: 10px;
+    justify-content: center;
+}
+.topsandchild5{
+    display: flex;
+    flex-direction: row;
+    background-color:#dcdde1;
+}
+.tops {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.paragraphe1{
+    font-size: 20px;
+}
+.name{
+    font-size: 10px;
+    margin-left: 60px;
+}
+.title{
+    font-size: 10px;
+    margin-left: 60px;
+}
+.carte-details{
+    font-size: 12px;
+}
+@media(max-width:500px){
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .top2{
+        display: flex;
+        flex-direction: column;
+    }
+    .tops{
+        display: flex;
+        flex-direction: column;
+    }
+    .topsandchild5{
+        display:flex;
+        flex-direction: column;
+    }
+    .child2{
+        width: 200px;
+    }
+    .child3{
+        width: 180px;
+    }
+    .child4{
+        width: 180px;
+    }
+    .child5{
+        width: 180px;
+        margin-left: 10px;
+    }
+}
